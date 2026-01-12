@@ -1,4 +1,4 @@
-# Textfromatierungen und Listen
+# Textformatierungen und Listen
 
 **Unsortierte Listen**
 
