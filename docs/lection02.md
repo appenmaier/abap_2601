@@ -10,8 +10,29 @@
 
 **Links**
 
-- [Doku](https://appenmaier.github.io/s4hana/documentation/abap/data-types)
-- [Doku](https://appenmaier.github.io/s4hana/documentation/abap/data-objects)
-- [Übungsaufgabe ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01)
-- [Übungsaufgabe ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02)
-- Demo: folgt
+- [Doku: Datentypen](https://appenmaier.github.io/s4hana/documentation/abap/data-types)
+- [Doku: Datenobjekte](https://appenmaier.github.io/s4hana/documentation/abap/data-objects)
+- [Übungsaufgabe: ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01)
+- [Übungsaufgabe: ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02)
+- Demo: _folgt_
+
+## Mathematische Operatoren, Mathematische Funktionen, Zeichenketten und Zeichenketten-Templates
+
+**Abbildungen**
+
+<img width="1866" height="1035" alt="image" src="https://github.com/user-attachments/assets/344f8dc6-046e-4f07-a149-24054f35d563" />
+
+**Links**
+
+- [Doku: Mathematische Operatoren und Funktionen](https://appenmaier.github.io/s4hana/documentation/abap/calculations)
+- [Doku: Zeichenketten und Zeichenketten-Templates](https://appenmaier.github.io/s4hana/documentation/abap/calculations)
+- Demo: _folgt_
+
+## Verzweigungen, Fallunterscheidungen und Schleifen
+
+**Links**
+
+- [Doku: Verzweigungen und Fallunterscheidungen](https://appenmaier.github.io/s4hana/documentation/abap/cases)
+- [Doku: Schleifen](https://appenmaier.github.io/s4hana/documentation/abap/loops)
+- [Übungsaufgabe: ABAP-03](https://appenmaier.github.io/s4hana/exercises/abap/abap-03)
+- Demo: _folgt_
