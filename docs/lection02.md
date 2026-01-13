@@ -12,8 +12,8 @@
 
 - [Doku: Datentypen](https://appenmaier.github.io/s4hana/documentation/abap/data-types)
 - [Doku: Datenobjekte](https://appenmaier.github.io/s4hana/documentation/abap/data-objects)
-- [Übungsaufgabe: ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01)
-- [Übungsaufgabe: ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02)
+- [Übungsaufgabe: ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01) (Musterlösung: _folgt_)
+- [Übungsaufgabe: ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02) (Musterlösung: _folgt_)
 - Demo: _folgt_
 
 ## Mathematische Operatoren, Mathematische Funktionen, Zeichenketten und Zeichenketten-Templates
@@ -34,5 +34,14 @@
 
 - [Doku: Verzweigungen und Fallunterscheidungen](https://appenmaier.github.io/s4hana/documentation/abap/cases)
 - [Doku: Schleifen](https://appenmaier.github.io/s4hana/documentation/abap/loops)
-- [Übungsaufgabe: ABAP-03](https://appenmaier.github.io/s4hana/exercises/abap/abap-03)
+- [Übungsaufgabe: ABAP-03](https://appenmaier.github.io/s4hana/exercises/abap/abap-03) (Musterlösung: _folgt_)
 - Demo: _folgt_
+
+## Klassenmethoden
+
+**Links**
+
+- [Klassenmethoden](https://appenmaier.github.io/s4hana/documentation/abap/class-methods)
+- [Übungsaufgabe: ABAP-04](https://appenmaier.github.io/s4hana/exercises/abap/abap-04) (Musterlösung: _folgt_)
+- Demo: _folgt_
+
