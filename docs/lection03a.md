@@ -12,8 +12,9 @@
 
 - [Doku: Klassen, Attribute und Methoden](https://appenmaier.github.io/s4hana/documentation/abap-objects/classes-attributes-and-methods)
 - [Doku: Objekte und Referenzvariablen](https://appenmaier.github.io/s4hana/documentation/abap-objects/objects-and-references)
-- [Übungsaufgabe: ABAP-Objects-01](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-01) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-Objects-02](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-02) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-Objects-03](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-03) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-Objects-04](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-04) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-Objects-01](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-01)
+- [Übungsaufgabe: ABAP-Objects-02](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-02)
+- [Übungsaufgabe: ABAP-Objects-03](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-03)
+- [Übungsaufgabe: ABAP-Objects-04](https://appenmaier.github.io/s4hana/exercises/abap-objects/abap-objects-04)
+- [Startklasse: Demo](https://github.com/appenmaier/abap_2601/blob/main/src/zcl_00_main_vehicles.clas.abap)
+- [Startklasse: Übungsaufgaben](https://github.com/appenmaier/abap_2601/blob/main/src/zcl_00_main_airplanes.clas.abap)
