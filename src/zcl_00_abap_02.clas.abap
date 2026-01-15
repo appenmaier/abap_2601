@@ -1,0 +1,30 @@
+CLASS zcl_00_abap_02 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_00_abap_02 IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+
+    DATA customer_id TYPE /dmo/customer_id VALUE '817254'.
+    DATA first_name TYPE /dmo/first_name VALUE 'Daniel'.
+    DATA last_name TYPE /dmo/last_name VALUE 'Appenmaier'.
+    DATA city TYPE /dmo/city VALUE 'Unterankenreute'.
+    DATA country_code TYPE land1 VALUE 'DE'.
+
+    out->write( |{ customer_id }, { first_name } { last_name }, { city } ({ country_code })| ).
+
+
+  ENDMETHOD.
+ENDCLASS.
