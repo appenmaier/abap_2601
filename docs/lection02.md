@@ -12,9 +12,9 @@
 
 - [Doku: Datentypen](https://appenmaier.github.io/s4hana/documentation/abap/data-types)
 - [Doku: Datenobjekte](https://appenmaier.github.io/s4hana/documentation/abap/data-objects)
-- [Übungsaufgabe: ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-01](https://appenmaier.github.io/s4hana/exercises/abap/abap-01) ([Musterlösung](../src/zcl_00_abap_01.clas.abap))
+- [Übungsaufgabe: ABAP-02](https://appenmaier.github.io/s4hana/exercises/abap/abap-02) ([Musterlösung](../src/zcl_00_abap_02.clas.abap))
+- [Demo](../src/zcl_00_demo_01.clas.abap)
 
 ## Mathematische Operatoren, Mathematische Funktionen, Zeichenketten und Zeichenketten-Templates
 
@@ -26,7 +26,7 @@
 
 - [Doku: Mathematische Operatoren und Funktionen](https://appenmaier.github.io/s4hana/documentation/abap/calculations)
 - [Doku: Zeichenketten und Zeichenketten-Templates](https://appenmaier.github.io/s4hana/documentation/abap/strings)
-- Demo: _folgt_
+- [Demo](../src/zcl_00_demo_02.clas.abap)
 
 ## Verzweigungen, Fallunterscheidungen und Schleifen
 
@@ -34,16 +34,17 @@
 
 - [Doku: Verzweigungen und Fallunterscheidungen](https://appenmaier.github.io/s4hana/documentation/abap/cases)
 - [Doku: Schleifen](https://appenmaier.github.io/s4hana/documentation/abap/loops)
-- [Übungsaufgabe: ABAP-03](https://appenmaier.github.io/s4hana/exercises/abap/abap-03) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-03](https://appenmaier.github.io/s4hana/exercises/abap/abap-03) ([Musterlösung](../src/zcl_00_abap_03.clas.abap))
+- [Demo: Verzweigungen und Schleifen](../src/zcl_00_demo_03.clas.abap)
+- [Demo: Schleifen](../src/zcl_00_demo_04.clas.abap)
 
 ## Klassenmethoden
 
 **Links**
 
 - [Doku: Klassenmethoden](https://appenmaier.github.io/s4hana/documentation/abap/class-methods)
-- [Übungsaufgabe: ABAP-04](https://appenmaier.github.io/s4hana/exercises/abap/abap-04) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-04](https://appenmaier.github.io/s4hana/exercises/abap/abap-04) ([Musterlösung](../src/zcl_00_abap_04.clas.abap))
+- [Demo](../src/zcl_00_demo_05.clas.abap)
 
 ## Strukturen und interne Tabellen
 
@@ -60,11 +61,12 @@
 
 - [Doku: Strukturen](https://appenmaier.github.io/s4hana/documentation/abap/structures)
 - [Doku: Interne Tabellen](https://appenmaier.github.io/s4hana/documentation/abap/internal-tables)
-- [Übungsaufgabe: ABAP-05](https://appenmaier.github.io/s4hana/exercises/abap/abap-05) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-06](https://appenmaier.github.io/s4hana/exercises/abap/abap-06) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-07](https://appenmaier.github.io/s4hana/exercises/abap/abap-07) (Musterlösung: _folgt_)
-- [Übungsaufgabe: ABAP-08](https://appenmaier.github.io/s4hana/exercises/abap/abap-08) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-05](https://appenmaier.github.io/s4hana/exercises/abap/abap-05) ([Musterlösung](../src/zcl_00_abap_05.clas.abap))
+- [Übungsaufgabe: ABAP-06](https://appenmaier.github.io/s4hana/exercises/abap/abap-06) ([Musterlösung](../src/zcl_00_abap_06.clas.abap))
+- [Übungsaufgabe: ABAP-07](https://appenmaier.github.io/s4hana/exercises/abap/abap-07) ([Musterlösung](../src/zcl_00_abap_07.clas.abap))
+- [Übungsaufgabe: ABAP-08](https://appenmaier.github.io/s4hana/exercises/abap/abap-08) ([Musterlösung](../src/zcl_00_abap_08.clas.abap))
+- [Demo: Strukturen](../src/zcl_00_demo_06.clas.abap)
+- [Demo: Interne Tabellen](../src/zcl_00_demo_07.clas.abap)
 
 ## ABAP SQL
 
@@ -76,5 +78,5 @@
 **Links**
 
 - [Doku: Datenbankzugriffe mit ABAP SQL](https://appenmaier.github.io/s4hana/documentation/abap/abap-sql)
-- [Übungsaufgabe: ABAP-09](https://appenmaier.github.io/s4hana/exercises/abap/abap-09) (Musterlösung: _folgt_)
-- Demo: _folgt_
+- [Übungsaufgabe: ABAP-09](https://appenmaier.github.io/s4hana/exercises/abap/abap-09) ([Musterlösung](../src/zcl_00_abap_09.clas.abap))
+- [Demo](../src/zcl_00_demo_08.clas.abap)
