@@ -2,9 +2,20 @@
 
 ## Grundlagen ABAP
 
-- [Einführung](docs/lection01.md)
-- [Grundlegende Sprachelemente in ABAP](docs/lection02.md)
-- [Grundlagen der Objektorientierung](docs/lection03.md)
+- Einführung
+  - [Die Programmiersprache ABAP](docs/lection01a.md)
+  - [Markdown und Git Demo](docs/lection01b.md)
+- Grundlegende Sprachelemente in ABAP
+  - [Datentypen und Datenobjekte](docs/lection02a.md)
+  - [Mathematische Operatoren, Mathematische Funktionen, Zeichenketten und Zeichenketten-Templates](docs/lection02b.md)
+  - [Verzweigungen, Fallunterscheidungen und Schleifen](docs/lection02c.md)
+  - [Klassenmethoden](docs/lection02d.md)
+  - [Strukturen und interne Tabellen](docs/lection02e.md)
+  - [ABAP SQL](docs/lection02f.md)
+- Grundlagen der Objektorientierung
+  - [Klassen, Attribute, Methoden und Objekte](docs/lection03a.md)
+  - [Ausnahmen (Exceptions)](docs/lection03b.md)
+  - [Vererbung, Polymoprhie und Schnittstellen (Interfaces)](docs/lection03c.md)
 
 ## Grundlagen ABAP Dictionary, ABAP CDS und RAP
 
