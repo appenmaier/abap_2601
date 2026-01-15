@@ -1,6 +1,4 @@
-# Einführung
-
-## Die Programmiersprache ABAP
+# Die Programmiersprache ABAP
 
 **Abbildungen**
 
@@ -8,15 +6,3 @@
 <img width="1866" height="1035" alt="image" src="https://github.com/user-attachments/assets/698878ce-432c-48df-9187-cf64b27e2608" />
 <img width="1866" height="1035" alt="image" src="https://github.com/user-attachments/assets/30eb5599-109f-46e5-97f1-cc06e3ea6dda" />
 <img width="1866" height="1035" alt="image" src="https://github.com/user-attachments/assets/ba1df79e-c1f7-431c-bc7d-8eec25b67a85" />
-
-## Markdown und Git Demo
-
-**Abbildungen**
-
-<img width="1866" height="1035" alt="image" src="https://github.com/user-attachments/assets/bff3e5d7-9232-469b-8759-ebd9d7f55eec" />
-
-**Links**
-- [Textformatierungen und Listen](page1.md)
-- [Tabellen, Überschriften und Links](page2.md)
-- [Blöcke](page3.md)
-- [Linien, Fußnoten, Mermaid-Diagramme](page4.md)
