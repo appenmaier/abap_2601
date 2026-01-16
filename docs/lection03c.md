@@ -1,3 +1,3 @@
-# Vererbung, Polymoprhie und Schnittstellen (Interfaces)
+# Vererbung, Polymorphie und Schnittstellen (Interfaces)
 
 _folgt_
