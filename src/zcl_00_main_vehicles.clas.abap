@@ -10,8 +10,10 @@ ENDCLASS.
 CLASS zcl_00_main_vehicles IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     " Deklarationen
+
     DATA vehicle  TYPE REF TO zcl_00_vehicle.
     DATA vehicles TYPE TABLE OF REF TO zcl_00_vehicle.
+    DATA truck    TYPE REF TO zcl_00_truck.
 
     " Instanziierungen
     out->write( zcl_00_vehicle=>number_of_vehicles ).
@@ -42,6 +44,13 @@ CLASS zcl_00_main_vehicles IMPLEMENTATION.
         CATCH zcx_00_value_too_high INTO DATA(x).
           out->write( x->get_text( ) ).
       ENDTRY.
+      IF vehicle IS INSTANCE OF zcl_00_truck.
+        truck = CAST #( vehicle ). " Downcast
+        truck->transform( ).
+        out->write( |{ COND #( WHEN truck->is_transformed = 'X'
+                               THEN 'Der LKW hat sich in einen Autobot transformiert        '
+                               ELSE 'Der Autobot hast sich wieder in einen LKW transformiert' ) }| ).
+      ENDIF.
       out->write( vehicle->to_string( ) ). " (Dynamische) Polymorphie
     ENDLOOP.
   ENDMETHOD.

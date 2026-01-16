@@ -4,12 +4,15 @@ CLASS zcl_00_truck DEFINITION
   CREATE PUBLIC.
 
   PUBLIC SECTION.
-    DATA cargo_in_tons TYPE i READ-ONLY.
+    DATA cargo_in_tons  TYPE i          READ-ONLY.
+    DATA is_transformed TYPE c LENGTH 1 READ-ONLY.
 
     METHODS constructor
       IMPORTING make          TYPE string
                 model         TYPE string
                 cargo_in_tons TYPE i.
+
+    METHODS transform.
 
     METHODS to_string REDEFINITION.
 
@@ -28,6 +31,14 @@ CLASS zcl_00_truck IMPLEMENTATION.
 
   METHOD to_string.
     string = super->to_string( ).
-    string &&= |, Frachtkapazität: { cargo_in_tons }t|.
+    string &&= |, Cargo capacity: { cargo_in_tons }t|.
+  ENDMETHOD.
+
+  METHOD transform.
+    IF is_transformed = 'X'. " IF is_transformed = abap_true.
+      is_transformed = ''. " is_transformed = abap_false.
+    ELSE.
+      is_transformed = 'X'.
+    ENDIF.
   ENDMETHOD.
 ENDCLASS.
