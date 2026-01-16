@@ -15,7 +15,7 @@
 - Grundlagen der Objektorientierung
   - [Klassen, Attribute, Methoden und Objekte](docs/lection03a.md)
   - [Ausnahmen (Exceptions)](docs/lection03b.md)
-  - [Vererbung, Polymoprhie und Schnittstellen (Interfaces)](docs/lection03c.md)
+  - [Vererbung, Polymorphie und Schnittstellen (Interfaces)](docs/lection03c.md)
 
 ## Grundlagen ABAP Dictionary, ABAP CDS und RAP
 
