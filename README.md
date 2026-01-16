@@ -22,3 +22,7 @@
 -	[Grundlagen ABAP Dictionary](docs/lection04.md)
 -	[Grundlagen ABAP CDS](docs/lection05.md)
 -	[Grundlagen RAP](docs/lection06.md)
+
+## Sonstiges
+
+- [Ergebnisse der Menti-Umfragen](docs/menti.md)
