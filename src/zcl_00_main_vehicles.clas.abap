@@ -15,6 +15,10 @@ CLASS zcl_00_main_vehicles IMPLEMENTATION.
     DATA vehicles TYPE TABLE OF REF TO zcl_00_vehicle.
     DATA truck    TYPE REF TO zcl_00_truck.
 
+    DATA rental TYPE REF TO zcl_00_rental.
+    DATA carrier TYPE REF TO zcl_00_carrier.
+    DATA partners TYPE TABLE OF REF TO zif_00_partner.
+
     " Instanziierungen
     out->write( zcl_00_vehicle=>number_of_vehicles ).
 
@@ -35,6 +39,12 @@ CLASS zcl_00_main_vehicles IMPLEMENTATION.
 
     out->write( zcl_00_vehicle=>number_of_vehicles ).
 
+    rental = NEW #( ).
+    carrier = NEW #( 'Lufthansa' ).
+
+    APPEND rental TO partners. " Upcast
+    APPEND carrier TO partners. " Upcast
+
     " Ausgabe
     LOOP AT vehicles INTO vehicle.
       TRY.
@@ -53,5 +63,15 @@ CLASS zcl_00_main_vehicles IMPLEMENTATION.
       ENDIF.
       out->write( vehicle->to_string( ) ). " (Dynamische) Polymorphie
     ENDLOOP.
+
+    LOOP AT partners INTO DATA(partner).
+      out->write( partner->to_string( ) ). " (Dynamische) Polymorphie
+
+      IF partner IS INSTANCE OF zcl_00_carrier.
+        carrier = CAST #( partner ). " Downcast
+        out->write( carrier->get_biggest_cargo_plane( ) ).
+      ENDIF.
+    ENDLOOP.
+
   ENDMETHOD.
 ENDCLASS.
