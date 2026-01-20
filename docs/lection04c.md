@@ -1,0 +1,3 @@
+# Aggregatfunktionen
+
+_folgt_

@@ -17,11 +17,16 @@
   - [Ausnahmen (Exceptions)](docs/lection03b.md)
   - [Vererbung, Polymorphie und Schnittstellen (Interfaces)](docs/lection03c.md)
 
-## Grundlagen ABAP Dictionary, ABAP CDS und RAP
+## Grundlagen ABAP CDS und RAP
 
--	[Grundlagen ABAP Dictionary](docs/lection04.md)
--	[Grundlagen ABAP CDS](docs/lection05.md)
--	[Grundlagen RAP](docs/lection06.md)
+- Grundlagen ABAP CDS
+  - [Projektionen, Selektionen und Inner Joins](docs/lection04a.md)
+  - [Verzweigungen, Arithmetische Ausdrücke, eingebaute Funktionen und Domänenfestwerte](docs/lection04b.md)
+  - [Aggregatfunktionen](docs/lection04c.md)
+  - [Views mit Parametern](docs/lection04d.md)
+  - [Assoziationen](docs/lection04e.md)
+  - [Zugriffskontrollen](docs/lection04f.md)
+- Grundlagen RAP (_folgt_)
 
 ## Sonstiges
 
