@@ -4,8 +4,10 @@
 
 @EndUserText.label: 'Travel'
 
-define view entity ZR_00_TravelTP
+define root view entity ZR_00_TravelTP
   as select from ZI_00_Travel
+
+  composition [0..*] of ZR_00_BookingTP as _Bookings
 
 {
   key TravelId,
@@ -14,18 +16,16 @@ define view entity ZR_00_TravelTP
       CustomerId,
       BeginDate,
       EndDate,
-
-      @Semantics.amount.currencyCode: 'CurrencyCode'
       BookingFee,
-
-      @Semantics.amount.currencyCode: 'CurrencyCode'
       TotalPrice,
-
       CurrencyCode,
       Description,
       Status,
       CreatedBy,
       CreatedAt,
       LastChangedBy,
-      LastChangedAt
+      LastChangedAt,
+
+      /* Assocations */
+      _Bookings
 }
