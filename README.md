@@ -23,9 +23,9 @@
   - [Projektionen, Selektionen und Inner Joins](docs/lection04a.md)
   - [Verzweigungen, Arithmetische Ausdrücke, eingebaute Funktionen und Domänenfestwerte](docs/lection04b.md)
   - [Aggregatfunktionen](docs/lection04c.md)
-  - Views mit Parametern (_folgt_)
-  - Assoziationen (_folgt_)
-  - Zugriffskontrollen (_folgt_)
+  - [Outer Joins](docs/lection04d.md)
+  - [Views mit Parametern](docs/lection04e.md)
+  - [Assoziationen](docs/lection04f.md)
 - Grundlagen RAP (_folgt_)
 
 ## Sonstiges
