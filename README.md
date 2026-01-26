@@ -26,7 +26,7 @@
   - [Outer Joins](docs/lection04d.md)
   - [Views mit Parametern](docs/lection04e.md)
   - [Assoziationen](docs/lection04f.md)
-- Grundlagen RAP (_folgt_)
+- [Grundlagen RAP](docs/lection05.md)
 
 ## Sonstiges
 
